@@ -4,6 +4,12 @@ description: DIY Docker & KVM hypervisor solution with alpine
 
 # In-House Hypervisor
 
+## Prerequisites
+
+```bash
+MY_NEW_USER=<username>
+```
+
 ## Add Admin User
 
 We want to use `root` [as little as possible](https://askubuntu.com/a/16179). So we create a normal user account and give them super powers.
@@ -25,7 +31,7 @@ printf "${MY_NEW_USER} ALL = (ALL:ALL) ALL\n" | \
 ```
 
 {% hint style="info" %}
- `sudo` should be used with care. Never give yourself this much access unless you know what you're doing.
+ The`sudo` command should be used with care. Never give yourself this much access unless you know what you're doing.
 {% endhint %}
 
 sed -i -e 's/v\[\[:digit:\]\].._\//edge\//g' /etc/apk/repositories sed -e 's;^\#http\(._\)/v3.7/community;http\1/v3.7/community;g'  -i /etc/apk/repositories apk update apk upgrade --update-cache --available
