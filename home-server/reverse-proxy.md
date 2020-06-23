@@ -1,0 +1,18 @@
+# Reverse Proxy
+
+#### $DOCKER\_HOME/.env
+
+```bash
+DOMAINNAME=<DOMAINNAME>
+CLOUDFLARE_EMAIL=<CLOUDFLARE_EMAIL>
+CLOUDFLARE_API_KEY=<CLOUDFLARE_API_KEY>
+PUID=<PUID>
+PGID=<PGID>
+TZ=<TZ>
+APPDIR=<APPDIR>
+```
+
+```bash
+docker network create traefik
+```
+
