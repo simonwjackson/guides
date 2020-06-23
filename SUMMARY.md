@@ -9,3 +9,8 @@
 
 * [Harden SSH](general/harden-ssh.md)
 
+## Next.js
+
+* [&lt;Head /&gt; Placement](next.js/less-than-head-greater-than-placement.md)
+* [Add Pipeline Operator to Next.js](next.js/add-pipeline-operator-to-next.js.md)
+
