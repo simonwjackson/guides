@@ -31,7 +31,7 @@ printf "${MY_NEW_USER} ALL = (ALL:ALL) ALL\n" | \
 ```
 
 {% hint style="info" %}
- The`sudo` command should be used with care. Never give yourself this much access unless you know what you're doing.
+ The `sudo` command should be used with care. Never give yourself this much access unless you know what you're doing.
 {% endhint %}
 
 Upgrade to Alpine \`edge\`
