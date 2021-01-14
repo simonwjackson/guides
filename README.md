@@ -1,5 +1,6 @@
 # Dev Guide
 
-This will describe the steps it takes to build the optimal development [environment](/environment.md)
+This will describe the steps it takes to build the optimal development [environment]()
 
-[this](home-server/in-house-hypervisor.md) is [another](another.md)
+[this](home-server/in-house-hypervisor.md) is [another]()
+
